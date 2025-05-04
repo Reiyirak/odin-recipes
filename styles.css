@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  background-color: rgb(200, 200, 255);
+  margin: 0 auto;
+  padding: 10px;
+  width: 80vw;
+  border: 3px dotted rgb(180, 180, 255);
+}
+
+.title-text {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.recipes-container a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* Individual Recipes */
+
